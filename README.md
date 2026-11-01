@@ -25,3 +25,9 @@ zenpm repo add mzimandl https://raw.githubusercontent.com/mzimandl/koplugins/mas
 Add an entry to `packages` in `manifest.json` (format: [repository-index contract](https://github.com/xZenLabs/zen-pm/blob/main/docs/architecture/repository-index.md)).
 Plugins without GitHub releases use `"source_type": "source"` with a `source_url` pointing to the branch zip;
 `plugin_module` is the plugin folder name without `.koplugin` (the zip's top folder is `<repo>-<branch>`, so ZenPM needs it to name the folder).
+
+## Updates
+
+ZenPM offers an update when `version` in `manifest.json` is greater than `version` in the installed plugin's `_meta.lua`.
+To release a new build, bump `version` in the plugin's `_meta.lua` and push it; the *Sync versions* workflow
+copies it into `manifest.json` (hourly, or right away with `gh workflow run sync-versions.yml -R mzimandl/koplugins`).
