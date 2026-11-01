@@ -1,0 +1,26 @@
+{
+  "schema_version": "1",
+  "repo": {
+    "id": "mzimandl",
+    "name": "mzimandl KOReader plugins",
+    "url": "https://raw.githubusercontent.com/mzimandl/koplugins/master/"
+  },
+  "packages": [
+    {
+      "id": "songbook",
+      "name": "Songbook",
+      "version": "source",
+      "description": "Download songs with guitar chords (ChordPro) from a song server and read them with transposition.",
+      "author": "mzimandl",
+      "category": "media",
+      "platforms": ["koreader"],
+      "dependencies": [],
+      "size": "",
+      "source": "https://github.com/mzimandl/songbook.koplugin",
+      "source_type": "source",
+      "source_url": "https://codeload.github.com/mzimandl/songbook.koplugin/zip/refs/heads/master",
+      "plugin_module": "songbook",
+      "readme_url": "https://raw.githubusercontent.com/mzimandl/songbook.koplugin/master/README.md"
+    }
+  ]
+}
