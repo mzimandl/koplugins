@@ -9,11 +9,13 @@
     {
       "id": "songbook",
       "name": "Songbook",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Download songs with guitar chords (ChordPro) from a song server and read them with transposition.",
       "author": "mzimandl",
       "category": "media",
-      "platforms": ["koreader"],
+      "platforms": [
+        "koreader"
+      ],
       "dependencies": [],
       "size": "",
       "source": "https://github.com/mzimandl/songbook.koplugin",
