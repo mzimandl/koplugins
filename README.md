@@ -5,6 +5,7 @@ My KOReader plugins as a [ZenPM](https://github.com/xZenLabs/zen-pm) repository.
 | Plugin | Description |
 | --- | --- |
 | [songbook.koplugin](https://github.com/mzimandl/songbook.koplugin) | Songs with guitar chords (ChordPro) and transposition |
+| [battleships.koplugin](https://github.com/mzimandl/battleships.koplugin) | Battleships for two players over Wi-Fi |
 
 ## Adding the repository to ZenPM
 

@@ -23,6 +23,24 @@
       "source_url": "https://codeload.github.com/mzimandl/songbook.koplugin/zip/refs/heads/master",
       "plugin_module": "songbook",
       "readme_url": "https://raw.githubusercontent.com/mzimandl/songbook.koplugin/master/README.md"
+    },
+    {
+      "id": "battleships",
+      "name": "Battleships",
+      "version": "0.1.0",
+      "description": "The classic Battleships game for two players, each on their own e-reader, over Wi-Fi.",
+      "author": "mzimandl",
+      "category": "games",
+      "platforms": [
+        "koreader"
+      ],
+      "dependencies": [],
+      "size": "",
+      "source": "https://github.com/mzimandl/battleships.koplugin",
+      "source_type": "source",
+      "source_url": "https://codeload.github.com/mzimandl/battleships.koplugin/zip/refs/heads/master",
+      "plugin_module": "battleships",
+      "readme_url": "https://raw.githubusercontent.com/mzimandl/battleships.koplugin/master/README.md"
     }
   ]
 }
