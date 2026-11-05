@@ -9,7 +9,7 @@
     {
       "id": "songbook",
       "name": "Songbook",
-      "version": "0.6.3",
+      "version": "0.6.4",
       "description": "Download songs with guitar chords (ChordPro) from a song server and read them with transposition.",
       "author": "mzimandl",
       "category": "media",
