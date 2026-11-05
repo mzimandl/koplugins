@@ -5,7 +5,7 @@ My KOReader plugins as a [ZenPM](https://github.com/xZenLabs/zen-pm) repository.
 | Plugin | Description |
 | --- | --- |
 | [songbook.koplugin](https://github.com/mzimandl/songbook.koplugin) | Songs with guitar chords (ChordPro) and transposition |
-| [battleships.koplugin](https://github.com/mzimandl/battleships.koplugin) | Battleships for two players over Wi-Fi |
+| [battleshipswifi.koplugin](https://github.com/mzimandl/battleshipswifi.koplugin) | Battleships (Lodě) for two players over Wi-Fi |
 | [backgammonwifi.koplugin](https://github.com/mzimandl/backgammonwifi.koplugin) | Backgammon (Vrchcáby) for two players over Wi-Fi |
 
 ## Adding the repository to ZenPM

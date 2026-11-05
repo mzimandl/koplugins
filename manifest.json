@@ -25,9 +25,9 @@
       "readme_url": "https://raw.githubusercontent.com/mzimandl/songbook.koplugin/master/README.md"
     },
     {
-      "id": "battleships",
-      "name": "Battleships",
-      "version": "0.1.2",
+      "id": "battleshipswifi",
+      "name": "Battleships (Wi-Fi)",
+      "version": "0.2.0",
       "description": "The classic Battleships game for two players, each on their own e-reader, over Wi-Fi.",
       "author": "mzimandl",
       "category": "games",
@@ -36,11 +36,11 @@
       ],
       "dependencies": [],
       "size": "",
-      "source": "https://github.com/mzimandl/battleships.koplugin",
+      "source": "https://github.com/mzimandl/battleshipswifi.koplugin",
       "source_type": "source",
-      "source_url": "https://codeload.github.com/mzimandl/battleships.koplugin/zip/refs/heads/master",
-      "plugin_module": "battleships",
-      "readme_url": "https://raw.githubusercontent.com/mzimandl/battleships.koplugin/master/README.md"
+      "source_url": "https://codeload.github.com/mzimandl/battleshipswifi.koplugin/zip/refs/heads/master",
+      "plugin_module": "battleshipswifi",
+      "readme_url": "https://raw.githubusercontent.com/mzimandl/battleshipswifi.koplugin/master/README.md"
     },
     {
       "id": "backgammonwifi",
