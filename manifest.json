@@ -43,10 +43,10 @@
       "readme_url": "https://raw.githubusercontent.com/mzimandl/battleships.koplugin/master/README.md"
     },
     {
-      "id": "backgammon",
-      "name": "Backgammon",
+      "id": "backgammonwifi",
+      "name": "Backgammon (Wi-Fi)",
       "version": "0.1.0",
-      "description": "Backgammon for two players, each on their own e-reader, over Wi-Fi.",
+      "description": "Backgammon (Vrchcáby) for two players, each on their own e-reader, over Wi-Fi.",
       "author": "mzimandl",
       "category": "games",
       "platforms": [
@@ -54,11 +54,11 @@
       ],
       "dependencies": [],
       "size": "",
-      "source": "https://github.com/mzimandl/backgammon.koplugin",
+      "source": "https://github.com/mzimandl/backgammonwifi.koplugin",
       "source_type": "source",
-      "source_url": "https://codeload.github.com/mzimandl/backgammon.koplugin/zip/refs/heads/master",
-      "plugin_module": "backgammon",
-      "readme_url": "https://raw.githubusercontent.com/mzimandl/backgammon.koplugin/master/README.md"
+      "source_url": "https://codeload.github.com/mzimandl/backgammonwifi.koplugin/zip/refs/heads/master",
+      "plugin_module": "backgammonwifi",
+      "readme_url": "https://raw.githubusercontent.com/mzimandl/backgammonwifi.koplugin/master/README.md"
     }
   ]
 }
