@@ -33,3 +33,7 @@ Plugins without GitHub releases use `"source_type": "source"` with a `source_url
 ZenPM offers an update when `version` in `manifest.json` is greater than `version` in the installed plugin's `_meta.lua`.
 To release a new build, bump `version` in the plugin's `_meta.lua` and push it; the *Sync versions* workflow
 copies it into `manifest.json` (hourly, or right away with `gh workflow run sync-versions.yml -R mzimandl/koplugins`).
+
+## License
+
+[MIT](LICENSE). The plugins listed in `manifest.json` have their own licenses.
