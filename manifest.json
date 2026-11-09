@@ -19,10 +19,11 @@
       "dependencies": [],
       "size": "",
       "source": "https://github.com/mzimandl/songbook.koplugin",
-      "source_type": "source",
-      "source_url": "https://codeload.github.com/mzimandl/songbook.koplugin/zip/refs/heads/master",
+      "source_type": "release",
+      "source_asset": "songbook.koplugin.zip",
       "plugin_module": "songbook",
-      "readme_url": "https://raw.githubusercontent.com/mzimandl/songbook.koplugin/master/README.md"
+      "readme_url": "https://raw.githubusercontent.com/mzimandl/songbook.koplugin/master/README.md",
+      "versions_url": "versions/songbook.json"
     },
     {
       "id": "battleshipswifi",

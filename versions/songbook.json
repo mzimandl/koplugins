@@ -1,0 +1,52 @@
+{
+  "releases": [
+    {
+      "tag_name": "v1.2.0",
+      "name": "Songbook 1.2.0",
+      "assets": [
+        {
+          "name": "songbook.koplugin.zip",
+          "size": 90805,
+          "digest": "sha256:7b843ec878e25d0f9944a606542c33202cbe88de2b24d02e0c3b4416e575bcb7",
+          "url": "https://github.com/mzimandl/songbook.koplugin/releases/download/v1.2.0/songbook.koplugin.zip"
+        }
+      ]
+    },
+    {
+      "tag_name": "v1.1.0",
+      "name": "Songbook 1.1.0",
+      "assets": [
+        {
+          "name": "songbook.koplugin.zip",
+          "size": 90130,
+          "digest": "sha256:e5902e91ac3547e211e5cd24108cc304ef05f88ae6bb4f761d161de9a5f5b0d4",
+          "url": "https://github.com/mzimandl/songbook.koplugin/releases/download/v1.1.0/songbook.koplugin.zip"
+        }
+      ]
+    },
+    {
+      "tag_name": "v1.0.0",
+      "name": "Songbook 1.0.0",
+      "assets": [
+        {
+          "name": "songbook.koplugin.zip",
+          "size": 89643,
+          "digest": "sha256:25416d62f4c5d1306b847e42ecc2567c2730a1711dbfdd58e885fcdd06ad725b",
+          "url": "https://github.com/mzimandl/songbook.koplugin/releases/download/v1.0.0/songbook.koplugin.zip"
+        }
+      ]
+    },
+    {
+      "tag_name": "v0.7.0",
+      "name": "Songbook 0.7.0",
+      "assets": [
+        {
+          "name": "songbook.koplugin.zip",
+          "size": 93125,
+          "digest": "sha256:d061f2d86ff73628466fe4a537a57c57858d822f6f23f70261a7746e5e31fbff",
+          "url": "https://github.com/mzimandl/songbook.koplugin/releases/download/v0.7.0/songbook.koplugin.zip"
+        }
+      ]
+    }
+  ]
+}

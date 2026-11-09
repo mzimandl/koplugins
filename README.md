@@ -25,14 +25,22 @@ zenpm repo add mzimandl https://raw.githubusercontent.com/mzimandl/koplugins/mas
 ## Adding a plugin
 
 Add an entry to `packages` in `manifest.json` (format: [repository-index contract](https://github.com/xZenLabs/zen-pm/blob/main/docs/architecture/repository-index.md)).
-Plugins without GitHub releases use `"source_type": "source"` with a `source_url` pointing to the branch zip;
-`plugin_module` is the plugin folder name without `.koplugin` (the zip's top folder is `<repo>-<branch>`, so ZenPM needs it to name the folder).
+`plugin_module` is the plugin folder name without `.koplugin`.
+
+- Plugins installed from a branch use `"source_type": "source"` with a `source_url` pointing to the branch zip
+  (its top folder is `<repo>-<branch>`, so ZenPM needs `plugin_module` to name the folder).
+- Plugins with GitHub releases use `"source_type": "release"` with `source_asset`, the zip attached to each
+  release; *Sync versions* writes `versions/<id>.json` and `versions_url`.
 
 ## Updates
 
 ZenPM offers an update when `version` in `manifest.json` is greater than `version` in the installed plugin's `_meta.lua`.
-To release a new build, bump `version` in the plugin's `_meta.lua` and push it; the *Sync versions* workflow
-copies it into `manifest.json` (hourly, or right away with `gh workflow run sync-versions.yml -R mzimandl/koplugins`).
+The *Sync versions* workflow (`tools/sync_versions.py`; hourly, on a `sync-versions` dispatch from the plugins'
+workflows, or right away with `gh workflow run sync-versions.yml -R mzimandl/koplugins`) sets it:
+
+- `source` packages: copied from `_meta.lua` on the branch; bump it there and push.
+- `release` packages (Songbook): the newest GitHub release. The newest pre-release (a tag like `v1.3.0-beta.1`)
+  goes to `prerelease_version`, which ZenPM offers only with **Beta updates** on in its settings.
 
 ## License
 
