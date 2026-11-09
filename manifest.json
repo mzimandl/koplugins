@@ -24,7 +24,7 @@
       "plugin_module": "songbook",
       "readme_url": "https://raw.githubusercontent.com/mzimandl/songbook.koplugin/master/README.md",
       "versions_url": "versions/songbook.json",
-      "prerelease_version": "1.3.0-beta.2"
+      "prerelease_version": "1.3.0-beta.3"
     },
     {
       "id": "battleshipswifi",
