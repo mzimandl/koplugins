@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "tag_name": "v1.3.0-beta.6",
+      "name": "Songbook 1.3.0-beta.6",
+      "assets": [
+        {
+          "name": "songbook.koplugin.zip",
+          "size": 93243,
+          "digest": "sha256:87151fdffa092475bc8d3984ba5b285b87a396670637178eb5212bbeb2b7c6a7",
+          "url": "https://github.com/mzimandl/songbook.koplugin/releases/download/v1.3.0-beta.6/songbook.koplugin.zip"
+        }
+      ],
+      "prerelease": true
+    },
+    {
       "tag_name": "v1.3.0-beta.5",
       "name": "Songbook 1.3.0-beta.5",
       "assets": [
