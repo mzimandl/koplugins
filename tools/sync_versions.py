@@ -47,6 +47,16 @@ def meta_version(source_url):
     return found.group(1) if found else None
 
 
+def version_key(tag):
+    """Sort key of a release tag ("v1.3.0-beta.10"): by its numbers, a stable
+    version after its pre-releases, pre-release parts by number where they are
+    numbers (beta.10 after beta.9)."""
+    core, _, pre = tag.lstrip("v").partition("-")
+    numbers = tuple(int(part) if part.isdigit() else 0 for part in core.split("."))
+    parts = tuple((0, int(part), "") if part.isdigit() else (1, 0, part) for part in pre.split(".")) if pre else ()
+    return numbers, 0 if pre else 1, parts
+
+
 def release_versions(package):
     """versions.json content, newest stable and newest pre-release version."""
     match = GITHUB_REPO.match(package.get("source", ""))
@@ -54,7 +64,9 @@ def release_versions(package):
         return None
     data = json.loads(fetch(f"https://api.github.com/repos/{match.group(1)}/releases?per_page=100", api=True))
     releases, stable, pre = [], None, None
-    for release in data:  # newest first
+    # GitHub's order is not by version (v1.3.0-beta.10 came after beta.4): newest first
+    data.sort(key=lambda release: version_key(release.get("tag_name", "")), reverse=True)
+    for release in data:
         if release.get("draft"):
             continue
         assets = [
