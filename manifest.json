@@ -29,7 +29,7 @@
     {
       "id": "battleshipswifi",
       "name": "Battleships (Wi-Fi)",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "The classic Battleships game for two players, each on their own e-reader, over Wi-Fi, or for one player against the e-reader.",
       "author": "mzimandl",
       "category": "games",
