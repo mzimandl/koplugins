@@ -112,6 +112,10 @@ def main():
             fields["versions_url"] = f"versions/{package['id']}.json"
             if stable:
                 fields["version"] = stable
+            # a pre-release older than the newest release (1.3.2-beta.2 after
+            # 1.3.2) is no longer offered
+            if pre and stable and version_key(pre) < version_key(stable):
+                pre = None
             fields["prerelease_version"] = pre
         for key, value in fields.items():
             if package.get(key) != value:
