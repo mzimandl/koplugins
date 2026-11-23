@@ -1,0 +1,16 @@
+{
+  "releases": [
+    {
+      "tag_name": "v1.1.6",
+      "name": "Battleships (Wi-Fi) 1.1.6",
+      "assets": [
+        {
+          "name": "battleshipswifi.koplugin.zip",
+          "size": 66019,
+          "digest": "sha256:1237e7b7ca72cf25f92c35b28da939afadd70390ede9333a20e0c1af56c133ad",
+          "url": "https://github.com/mzimandl/battleshipswifi.koplugin/releases/download/v1.1.6/battleshipswifi.koplugin.zip"
+        }
+      ]
+    }
+  ]
+}
