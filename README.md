@@ -39,7 +39,7 @@ The *Sync versions* workflow (`tools/sync_versions.py`; hourly, on a `sync-versi
 workflows, or right away with `gh workflow run sync-versions.yml -R mzimandl/koplugins`) sets it:
 
 - `source` packages: copied from `_meta.lua` on the branch; bump it there and push.
-- `release` packages (Songbook): the newest GitHub release. The newest pre-release (a tag like `v1.3.0-beta.1`)
+- `release` packages (Songbook, Battleships): the newest GitHub release. The newest pre-release (a tag like `v1.3.0-beta.1`)
   goes to `prerelease_version`, which ZenPM offers only with **Beta updates** on in its settings.
 
 ## License

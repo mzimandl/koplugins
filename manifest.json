@@ -39,10 +39,11 @@
       "dependencies": [],
       "size": "",
       "source": "https://github.com/mzimandl/battleshipswifi.koplugin",
-      "source_type": "source",
-      "source_url": "https://codeload.github.com/mzimandl/battleshipswifi.koplugin/zip/refs/heads/master",
+      "source_type": "release",
+      "source_asset": "battleshipswifi.koplugin.zip",
       "plugin_module": "battleshipswifi",
-      "readme_url": "https://raw.githubusercontent.com/mzimandl/battleshipswifi.koplugin/master/README.md"
+      "readme_url": "https://raw.githubusercontent.com/mzimandl/battleshipswifi.koplugin/master/README.md",
+      "versions_url": "versions/battleshipswifi.json"
     },
     {
       "id": "backgammonwifi",
